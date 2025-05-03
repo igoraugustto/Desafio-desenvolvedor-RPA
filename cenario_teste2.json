@@ -1,0 +1,23 @@
+[
+    {
+      "entrada": {
+        "tipo_documento": "CPF",
+        "valor": "000.000.000-00"
+      },
+      "erro": {
+        "mensagem": "CPF inexistente ou inválido.",
+        "codigo": "DOC_INEXISTENTE"
+      }
+    },
+    {
+      "entrada": {
+        "tipo_documento": "NIS",
+        "valor": "12345678900"
+      },
+      "erro": {
+        "mensagem": "Não foi possível retornar os dados no tempo de resposta solicitado.",
+        "codigo": "TIMEOUT"
+      }
+    }
+  ]
+  
